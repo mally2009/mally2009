@@ -1,0 +1,7 @@
+voted = {}
+def check_voter(name):
+	if name is voted:
+		print ("Выгнать его!")
+	else
+		voted[name] = True
+		print("Допустить к голосованию!")
